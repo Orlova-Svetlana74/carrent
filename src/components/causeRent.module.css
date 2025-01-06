@@ -1,0 +1,75 @@
+.textcontent {
+  width: 1320px;
+  margin-left: calc(50% - 660px);
+  margin-right: calc(50% - 660px);
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.text {
+  font-family: Unbounded;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-bottom: 70px;
+}
+.itemstyle {
+  display: flex;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  width: 459px;
+  height: 112px;
+  gap: 0px;
+  opacity: 0px;
+}
+.title {
+  font-family: PP Pangram Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.textitem {
+  font-family: PP Pangram Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.blockcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.strahovka {
+  width: 54px;
+  height: 52px;
+  margin-right: 20px;
+}
+.avtopark {
+  width: 54px;
+  height: 52px;
+  margin-right: 20px;
+}
+.cenovay {
+  width: 54px;
+  height: 52px;
+  margin-right: 20px;
+}
+.oplata {
+  width: 54px;
+  height: 52px;
+  margin-right: 20px;
+}
+.skorost {
+  width: 54px;
+  height: 52px;
+  margin-right: 20px;
+}
