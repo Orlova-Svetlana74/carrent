@@ -1,0 +1,93 @@
+.fonpicture {
+  background-image: url('../img/rentavto.png');
+  background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь элемент */
+  background-position: center; /* Центрируем изображение */
+  padding: 20px; /* Добавим немного отступов */
+  border-radius: 8px solid #000000; /* Закруглим углы */
+  height: 966px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+.titletext {
+  font-family: Unbounded;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 62px;
+  color: white;
+  padding-bottom: 120px;
+}
+.textcontent {
+  font-family: PP Pangram Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+.text {
+  font-family: PP Pangram Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-top: 50px;
+}
+.blockcontent {
+  /* width: 760px;
+  height: 392px; */
+  display: flex;
+  flex-wrap: nowrap;  
+}
+.blocktext {
+  width: 760px;
+  height: 392px;
+  gap: 0px;
+  opacity: 0px;
+}
+.formreg {
+  padding-left: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.blockstyle {
+  padding-left: 500px;
+  padding-top: 200px;
+}
+.name {
+  width: Fixed (424px) px;
+  height: Hug (76px) px;
+  padding: 28px 30px 28px 30px;
+  gap: 16px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.buttonrent {
+  width: Fixed (424px) px;
+  height: Hug (76px) px;
+  padding: 28px 34px 28px 34px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  background: transparent;
+  border-color: white;
+  color: white;
+}
+.buttonrent:hover {
+  cursor: pointer;
+}
+.checkbox {
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.varchois {
+  color: white;
+}

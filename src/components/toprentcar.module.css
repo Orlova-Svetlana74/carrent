@@ -1,0 +1,109 @@
+.topblock {
+  /* width: 1860px; */
+  height: 1101px;
+}
+.fonpicture {
+  background-image: url('../img/foncar.png');
+  background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь элемент */
+  background-position: center; /* Центрируем изображение */
+  padding: 20px; /* Добавим немного отступов */
+  border-radius: 8px solid #000000; /* Закруглим углы */
+  /* width: 1860px; */
+  height: 966px;
+  /* padding-left: calc(50% - 393px);
+  padding-right: calc(50% - 393px); */
+  background-repeat: no-repeat; 
+}
+
+.toptext {
+  font-family: Unbounded;
+  font-size: 89px;
+  font-weight: 700;
+  line-height: 95px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-top: 200px;
+}
+
+.ptext {
+  font-family: PP Pangram Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  padding-top: 30px;
+}
+.rentalorder {
+  width: 1320px;
+  height: 271px;
+  opacity: 0px;
+  /* padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px); */
+  background-color: white;
+  border-radius: 10px;
+  margin-top: -200px;
+  padding: 20px;
+  margin-left: calc(50% - 660px);
+  margin-right: calc(50% - 660px);
+}
+.startrent {
+  width: Fixed (242px) px;
+  height: Hug (76px) px;
+  /* top: 1079px;
+  left: 370px; */
+  padding: 28px 30px 28px 30px;
+  gap: 16px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  margin-right: 20px;
+  color: #a4a4a4;
+}
+
+.finishrent {
+  width: Fixed (242px) px;
+  height: Hug (76px) px;
+  /* top: 1079px;
+  left: 632px; */
+  padding: 28px 30px 28px 30px;
+  gap: 16px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  color: #a4a4a4;
+}
+.findbutton {
+  width: Hug (201px) px;
+  height: Hug (76px) px;
+  padding: 28px 34px 28px 34px;
+  gap: 10px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  background: linear-gradient(67.38deg, #9f7437 9.19%, #e3d293 92.03%);
+  color: white;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+.findbutton:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+.rentalorder_choice {
+  display: flex;
+  flex-wrap: nowrap;
+  /* align-content: flex-end; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.varchois {
+  padding-right: 15px;
+  padding-left: 5px;
+}
+.title {
+  font-size: 40px;
+}

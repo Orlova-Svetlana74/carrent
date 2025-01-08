@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/carrent/static/css/main.1618176a.css",
+    "main.js": "/carrent/static/js/main.25904408.js",
+    "static/js/488.c1f5bb98.chunk.js": "/carrent/static/js/488.c1f5bb98.chunk.js",
+    "static/media/foncar.png": "/carrent/static/media/foncar.598794d94ed40ce2a10d.png",
+    "static/media/rentcar.png": "/carrent/static/media/rentcar.3048c9eeedb5d0000c10.png",
+    "static/media/rentavto.png": "/carrent/static/media/rentavto.fcbb44e2a5d12f2c4756.png",
+    "static/media/discounts.png": "/carrent/static/media/discounts.fd5b1ae313d40bcf9b8a.png",
+    "static/media/redcar.png": "/carrent/static/media/redcar.b2d404d4b1ed268ac999.png",
+    "static/media/fotosessiy.png": "/carrent/static/media/fotosessiy.8223e2cad14c41f51618.png",
+    "static/media/wedding.png": "/carrent/static/media/wedding.ab0516471deb080c8ad6.png",
+    "static/media/girl.png": "/carrent/static/media/girl.56dd8560917e53c69fec.png",
+    "static/media/rul.png": "/carrent/static/media/rul.e4f54f61a7b59125ae80.png",
+    "static/media/skidki.png": "/carrent/static/media/skidki.d990825020bbb0bbd84f.png",
+    "static/media/logocar.png": "/carrent/static/media/logocar.81a7bd3310f86aeb176d.png",
+    "static/media/lexus.png": "/carrent/static/media/lexus.0b4a902ed4fdc5584801.png",
+    "static/media/kia.png": "/carrent/static/media/kia.9f95d560b21170febb5f.png",
+    "static/media/jaguar.png": "/carrent/static/media/jaguar.2313449f2739bf87c1db.png",
+    "static/media/bmvx2.png": "/carrent/static/media/bmvx2.d23483e71e942558adb8.png",
+    "static/media/toyota.png": "/carrent/static/media/toyota.9d09be98e314f6c19a8f.png",
+    "index.html": "/carrent/index.html",
+    "main.1618176a.css.map": "/carrent/static/css/main.1618176a.css.map",
+    "main.25904408.js.map": "/carrent/static/js/main.25904408.js.map",
+    "488.c1f5bb98.chunk.js.map": "/carrent/static/js/488.c1f5bb98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1618176a.css",
+    "static/js/main.25904408.js"
+  ]
+}
