@@ -1,5 +1,4 @@
-.topblock {
-  /* width: 1860px; */
+.topblock {  
   height: 1101px;
 }
 .fonpicture {
@@ -8,10 +7,7 @@
   background-position: center; /* Центрируем изображение */
   padding: 20px; /* Добавим немного отступов */
   border-radius: 8px solid #000000; /* Закруглим углы */
-  /* width: 1860px; */
-  height: 966px;
-  /* padding-left: calc(50% - 393px);
-  padding-right: calc(50% - 393px); */
+  height: 966px;  
   background-repeat: no-repeat; 
 }
 
@@ -40,10 +36,7 @@
 }
 .rentalorder {
   width: 1320px;
-  height: 271px;
-  opacity: 0px;
-  /* padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px); */
+  height: 271px;  
   background-color: white;
   border-radius: 10px;
   margin-top: -200px;
@@ -53,26 +46,20 @@
 }
 .startrent {
   width: Fixed (242px) px;
-  height: Hug (76px) px;
-  /* top: 1079px;
-  left: 370px; */
+  height: Hug (76px) px;  
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px 10px 10px 10px;
-  opacity: 0px;
+  border-radius: 10px 10px 10px 10px;  
   margin-right: 20px;
   color: #a4a4a4;
 }
 
 .finishrent {
   width: Fixed (242px) px;
-  height: Hug (76px) px;
-  /* top: 1079px;
-  left: 632px; */
+  height: Hug (76px) px;  
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px 10px 10px 10px;
-  opacity: 0px;
+  border-radius: 10px 10px 10px 10px;  
   color: #a4a4a4;
 }
 .findbutton {
@@ -80,8 +67,7 @@
   height: Hug (76px) px;
   padding: 28px 34px 28px 34px;
   gap: 10px;
-  border-radius: 10px 10px 10px 10px;
-  opacity: 0px;
+  border-radius: 10px 10px 10px 10px;  
   background: linear-gradient(67.38deg, #9f7437 9.19%, #e3d293 92.03%);
   color: white;
   font-size: 20px;
@@ -93,8 +79,7 @@
 }
 .rentalorder_choice {
   display: flex;
-  flex-wrap: nowrap;
-  /* align-content: flex-end; */
+  flex-wrap: nowrap;  
   align-items: center;
   justify-content: space-between;
   margin-top: 75px;

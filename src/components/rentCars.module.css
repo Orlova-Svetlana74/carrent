@@ -12,22 +12,19 @@
   width: 348px;
   height: 350px;
   gap: 0px;
-  border-radius: 20px;
-  opacity: 0px;
+  border-radius: 20px;  
 }
 .rul {
   width: 348px;
   height: 350px;
   gap: 0px;
-  border-radius: 20px;
-  opacity: 0px;
+  border-radius: 20px;  
   padding-right: 30px;
 }
 .blockstyle {
   width: 1320px;
   height: 580px;
-  gap: 0px;
-  opacity: 0px;
+  gap: 0px;  
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -64,9 +61,7 @@
 }
 .bloccontener {
   width: 648px;
-  height: 580px;
-  /* gap: 0px; */
-  opacity: 0px;
+  height: 580px;  
   padding-right: 30px;
   margin-left: calc(50% - 660px);
   margin-right: calc(50% - 660px);

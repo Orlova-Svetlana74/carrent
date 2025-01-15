@@ -16,8 +16,7 @@
   padding: 12px 20px 12px 20px;
   gap: 10px;
   border-radius: 8px;
-  border: 2px;
-  opacity: 0px;
+  border: 2px;  
 }
 .buttoncall:hover {
   cursor: pointer;
@@ -25,8 +24,7 @@
 .telegr {
   width: 25px;
   height: 25px;
-  gap: 0px;
-  opacity: 0.3px;
+  gap: 0px;  
   padding-right: 5px;
 }
 .telegr:hover {
@@ -35,7 +33,6 @@
 .watsupp:hover {
   cursor: pointer;
 }
-
 .watsupp {
   width: 25px;
   height: 25px;

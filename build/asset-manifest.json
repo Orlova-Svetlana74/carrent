@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/carrent/static/css/main.1618176a.css",
-    "main.js": "/carrent/static/js/main.25904408.js",
+    "main.css": "/carrent/static/css/main.c555030c.css",
+    "main.js": "/carrent/static/js/main.90885b73.js",
     "static/js/488.c1f5bb98.chunk.js": "/carrent/static/js/488.c1f5bb98.chunk.js",
     "static/media/foncar.png": "/carrent/static/media/foncar.598794d94ed40ce2a10d.png",
     "static/media/rentcar.png": "/carrent/static/media/rentcar.3048c9eeedb5d0000c10.png",
@@ -20,12 +20,12 @@
     "static/media/bmvx2.png": "/carrent/static/media/bmvx2.d23483e71e942558adb8.png",
     "static/media/toyota.png": "/carrent/static/media/toyota.9d09be98e314f6c19a8f.png",
     "index.html": "/carrent/index.html",
-    "main.1618176a.css.map": "/carrent/static/css/main.1618176a.css.map",
-    "main.25904408.js.map": "/carrent/static/js/main.25904408.js.map",
+    "main.c555030c.css.map": "/carrent/static/css/main.c555030c.css.map",
+    "main.90885b73.js.map": "/carrent/static/js/main.90885b73.js.map",
     "488.c1f5bb98.chunk.js.map": "/carrent/static/js/488.c1f5bb98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1618176a.css",
-    "static/js/main.25904408.js"
+    "static/css/main.c555030c.css",
+    "static/js/main.90885b73.js"
   ]
 }

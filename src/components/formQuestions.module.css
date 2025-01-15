@@ -1,8 +1,7 @@
 .fonpicture {
   width: 1234px;
   height: 748px;
-  gap: 0px;
-  opacity: 0px;
+  gap: 0px;  
   margin-left: calc(50% - 660px);
   margin-right: calc(50% - 660px);
   display: flex;
@@ -20,8 +19,7 @@
   height: Hug (76px) px;
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px;
-  opacity: 0px;
+  border-radius: 10px;  
 }
 .varchois {
   color: black;
@@ -32,8 +30,7 @@
   padding: 28px 34px 28px 34px;
   gap: 10px;
   border-radius: 10px;
-  border: 2px 0px 0px 0px;
-  opacity: 0px;
+  border: 2px 0px 0px 0px;  
   background: black;
   border-color: white;
   color: white;

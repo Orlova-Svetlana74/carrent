@@ -37,17 +37,14 @@
   color: white;
   padding-top: 50px;
 }
-.blockcontent {
-  /* width: 760px;
-  height: 392px; */
+.blockcontent {  
   display: flex;
   flex-wrap: nowrap;  
 }
 .blocktext {
   width: 760px;
   height: 392px;
-  gap: 0px;
-  opacity: 0px;
+  gap: 0px;  
 }
 .formreg {
   padding-left: 150px;
@@ -65,8 +62,7 @@
   height: Hug (76px) px;
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px;
-  opacity: 0px;
+  border-radius: 10px;  
 }
 .buttonrent {
   width: Fixed (424px) px;

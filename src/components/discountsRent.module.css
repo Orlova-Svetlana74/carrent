@@ -32,7 +32,6 @@
   width: 760px;
   height: 392px;
   gap: 0px;
-  opacity: 0px;
 }
 .textcontent {
   font-family: PP Pangram Sans;
@@ -59,8 +58,7 @@
   width: 536px;
   height: 448px;
   gap: 0px;
-  border-radius: 20px;
-  opacity: 0px;
+  border-radius: 20px;  
   background-color: white;
 }
 .block {
@@ -74,8 +72,7 @@
   border-radius: 100%;
   width: 54px;
   height: 54px;
-  gap: 0px;
-  opacity: 0px;
+  gap: 0px;  
   color: white;
   background: transparent;
   border-color: white;
@@ -84,6 +81,4 @@
 }
 .buttoncircle:hover {
   cursor: pointer;
-}
-.skidkistyle {
 }
