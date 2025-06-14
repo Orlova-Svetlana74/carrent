@@ -1,4 +1,4 @@
-.topblock {  
+.topblock {
   height: 1101px;
 }
 .fonpicture {
@@ -6,13 +6,13 @@
   background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь элемент */
   background-position: center; /* Центрируем изображение */
   padding: 20px; /* Добавим немного отступов */
-  border-radius: 8px solid #000000; /* Закруглим углы */
-  height: 966px;  
-  background-repeat: no-repeat; 
+  border-radius: 8px; /* Закруглим углы */
+  height: 966px;
+  background-repeat: no-repeat;
 }
 
 .toptext {
-  font-family: Unbounded;
+  font-family: 'Unbounded', sans-serif;
   font-size: 89px;
   font-weight: 700;
   line-height: 95px;
@@ -24,7 +24,7 @@
 }
 
 .ptext {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans', sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
@@ -36,7 +36,7 @@
 }
 .rentalorder {
   width: 1320px;
-  height: 271px;  
+  height: 271px;
   background-color: white;
   border-radius: 10px;
   margin-top: -200px;
@@ -45,29 +45,30 @@
   margin-right: calc(50% - 660px);
 }
 .startrent {
-  width: Fixed (242px) px;
-  height: Hug (76px) px;  
+  width: 242px;
+  height: 76px;
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px 10px 10px 10px;  
+  border-radius: 10px 10px 10px 10px;
   margin-right: 20px;
   color: #a4a4a4;
 }
 
 .finishrent {
-  width: Fixed (242px) px;
-  height: Hug (76px) px;  
+  width: 242px;
+  height: (76px);
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px 10px 10px 10px;  
+  border-radius: 10px 10px 10px 10px;
   color: #a4a4a4;
 }
 .findbutton {
-  width: Hug (201px) px;
-  height: Hug (76px) px;
-  padding: 28px 34px 28px 34px;
+  /* width: 201px;
+  height: 76px; */
+  padding: 28px 34px;
+  /* padding: 28px 34px 28px 34px; */
   gap: 10px;
-  border-radius: 10px 10px 10px 10px;  
+  border-radius: 10px;
   background: linear-gradient(67.38deg, #9f7437 9.19%, #e3d293 92.03%);
   color: white;
   font-size: 20px;
@@ -79,7 +80,7 @@
 }
 .rentalorder_choice {
   display: flex;
-  flex-wrap: nowrap;  
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   margin-top: 75px;
@@ -91,4 +92,106 @@
 }
 .title {
   font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .topblock {
+    height: auto;
+  }
+  .fonpicture {
+    height: 600px;
+    padding: 15px;
+  }
+  .toptext {
+    font-size: 48px;
+    line-height: 52px;
+    padding-top: 120px;
+  }
+  .ptext {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 15px;
+  }
+  .rentalorder {
+    width: 90%;
+    height: auto;
+    margin-top: -150px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rentalorder_choice {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .startrent,
+  .finishrent,
+  .findbutton {
+    width: 180px;
+    height: 60px;
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .rentalorder_choice_var {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topblock {
+    height: auto;
+  }
+  .fonpicture {
+    height: 400px;
+    padding: 10px;
+  }
+  .toptext {
+    font-size: 28px;
+    line-height: 32px;
+    padding-top: 80px;
+  }
+  .ptext {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+  .rentalorder {
+    width: 95%;
+    height: auto;
+    margin-top: -100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rentalorder_choice {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .startrent,
+  .finishrent,
+  .findbutton {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .rentalorder_choice_var {
+    max-width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+  .varchois {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
 }

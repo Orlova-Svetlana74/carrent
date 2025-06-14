@@ -2,3 +2,37 @@
   margin-left: calc(50% - 660px);
   margin-right: calc(50% - 660px);
 }
+.logocars {
+  margin-left: calc(50% - 660px);
+  margin-right: calc(50% - 660px);
+}
+
+/* --- Медиазапрос для экранов до 767px --- */
+@media (max-width: 767px) {
+  .logocars {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  .logocar {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* --- Медиазапрос для экранов до 480px --- */
+@media (max-width: 480px) {
+  .logocars {
+    width: 95%;
+    max-width: 360px;
+  }
+  .logocar {
+    width: 100%;
+    height: auto;
+  }
+}
+

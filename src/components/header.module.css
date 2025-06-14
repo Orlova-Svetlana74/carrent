@@ -11,12 +11,12 @@
   padding-right: 15px;
 }
 .buttoncall {
-  width: Hug (149px) px;
-  height: Hug (44px) px;
+  width: 149px;
+  height: 44px;
   padding: 12px 20px 12px 20px;
   gap: 10px;
   border-radius: 8px;
-  border: 2px;  
+  border: 2px;
 }
 .buttoncall:hover {
   cursor: pointer;
@@ -24,7 +24,7 @@
 .telegr {
   width: 25px;
   height: 25px;
-  gap: 0px;  
+  gap: 0px;
   padding-right: 5px;
 }
 .telegr:hover {
@@ -40,7 +40,7 @@
   opacity: 0.3px;
 }
 .menu_item_text {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 20px;
   font-weight: 500;
   line-height: 22px;
@@ -50,4 +50,61 @@
 }
 .menu_item_text:hover {
   cursor: pointer;
+}
+/* Мобильные устройства — ширина до 480px */
+@media (max-width: 480px) {
+  .topheader {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .menu_item_text {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 6px;
+  }
+
+  .buttoncall {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .telegr,
+  .watsupp {
+    width: 20px;
+    height: 20px;
+    padding-right: 3px;
+  }
+}
+/* Планшеты — ширина от 481px до 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .topheader {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 20px;
+    justify-content: space-around;
+  }
+
+  .menu_item_text {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 10px;
+  }
+
+  .buttoncall {
+    width: 140px;
+    height: 40px;
+    padding: 10px 15px;
+  }
+
+  .telegr,
+  .watsupp {
+    width: 22px;
+    height: 22px;
+  }
 }

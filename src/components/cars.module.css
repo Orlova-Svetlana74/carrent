@@ -11,21 +11,20 @@
   justify-content: space-between;
   padding-top: 50px;
 }
-.boxcar {  
+.boxcar {
   border-radius: 10px;
   background-color: white;
-  padding: 10px; 
+  padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 .buttonrent {
   background: linear-gradient(67.38deg, #9f7437 9.19%, #e3d293 92.03%);
-  width: Hug (135px) px;
-  height: Fixed (40px) px;
+  width: 135px;
+  height: 40px;
   padding: 8px 20px 8px 20px;
   gap: 10px;
   border-radius: 6px;
-  opacity: 0px;
   transition: transform 0.2s;
 }
 .buttonrent:hover {
@@ -37,7 +36,7 @@
   padding-top: 30px;
 }
 .marcacars {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -46,7 +45,7 @@
   text-decoration-skip-ink: none;
 }
 .characteristic {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -56,7 +55,7 @@
   padding-top: 30px;
 }
 .price {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 25px;
   font-weight: 700;
   line-height: 20px;
@@ -65,7 +64,7 @@
   text-decoration-skip-ink: none;
 }
 .titleparc {
-  font-family: Unbounded;
+  font-family: 'Unbounded';
   font-size: 70px;
   font-weight: 700;
   line-height: 62px;
@@ -79,13 +78,12 @@
   padding-bottom: 70px;
 }
 .buttonlook {
-  width: Hug (124px) px;
-  height: Hug (44px) px;
+  /* width: 124px;
+  height: 44px; */
   padding: 12px 20px 12px 20px;
   gap: 10px;
   border-radius: 8px;
   border: 2px;
-  opacity: 0px;
   border: 2px solid #1f1f1f;
   margin-left: 60px;
   font-size: 25px;
@@ -94,21 +92,18 @@
 .buttonlook:hover {
   cursor: pointer;
   transform: scale(1.25);
-  
 }
 .carsparc {
-  display: flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .buttoncar {
-  width: Hug (217px) px;
-  height: Fixed (74px) px;
+  width: 217px;
+  height: 74px;
   padding: 12px 30px 12px 30px;
   gap: 20px;
   border-radius: 10px;
-  opacity: 0px;
   margin: 10px;
   background-color: white;
 }
@@ -117,12 +112,11 @@
 }
 .buttonvnedorcar {
   background: #1f1f1f;
-  width: Hug (217px) px;
-  height: Fixed (74px) px;
+  width: 217px;
+  height: 74px;
   padding: 12px 30px 12px 30px;
   gap: 20px;
   border-radius: 10px;
-  opacity: 0px;
   color: white;
 }
 .buttonvnedorcar:hover {
@@ -137,4 +131,146 @@
 .mochnost {
   margin-right: 10px;
   margin-left: 15px;
+}
+/* Планшеты и средние экраны (до 480px) */
+@media (max-width: 480px) {
+  .blockparc {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 60px;
+  }
+  .titleparc {
+    font-size: 48px;
+    line-height: 1.1;
+  }
+  .buttonlook {
+    font-size: 18px;
+    /* width: 110px;
+    height: 38px; */
+    margin-left: 30px;
+    padding: 8px 15px;
+  }
+  .title {
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .buttonvnedorcar,
+  .buttoncar {
+    width: 180px;
+    height: 60px;
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 16px;
+  }
+  .carsparc {
+    justify-content: center;
+    gap: 15px;
+  }
+  .boxcar {
+    width: calc(50% - 15px);
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  .car {
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 100%;
+  }
+  .marcacars {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .characteristic {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .price {
+    font-size: 20px;
+  }
+  .buttonrent {
+    width: 120px;
+    height: 36px;
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+  .buttunprise {
+    padding-top: 30px;
+  }
+}
+
+/* Мобильные устройства (до 767px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .blockparc {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  .titleparc {
+    font-size: 32px;
+    text-align: center;
+  }
+  .buttonlook {
+    /* width: 100px;
+    height: 36px; */
+    font-size: 14px;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .title {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .buttonvnedorcar,
+  .buttoncar {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin: 6px 0;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  .carsparc {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxcar {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 12px;
+  }
+  .car {
+    padding-left: 10px;
+    padding-top: 15px;
+    max-width: 100%;
+  }
+  .marcacars {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .characteristic {
+    font-size: 14px;
+    padding-top: 15px;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .buttonrent {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .buttunprise {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
 }

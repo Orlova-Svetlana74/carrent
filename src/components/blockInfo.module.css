@@ -1,5 +1,5 @@
 .text {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 30px;
   font-weight: 600;
   line-height: 38px;
@@ -8,7 +8,7 @@
   text-decoration-skip-ink: none;
 }
 .textdop {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 25px;
   font-weight: 500;
   line-height: 30px;
@@ -20,4 +20,39 @@
 }
 .textcontent {
   margin-top: 70px;
+}
+/* Медиазапрос для экранов до 767px */
+@media (max-width: 767px) {
+  .text {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .textdop {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .textcontent {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+}
+
+/* Медиазапрос для экранов до 480px */
+@media (max-width: 480px) {
+  .text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .textdop {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+  }
+  .textcontent {
+    margin-top: 40px;
+    padding: 0 10px;
+  }
 }

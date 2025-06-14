@@ -1,7 +1,7 @@
 .fonpicture {
   width: 1234px;
   height: 748px;
-  gap: 0px;  
+  gap: 0px;
   margin-left: calc(50% - 660px);
   margin-right: calc(50% - 660px);
   display: flex;
@@ -15,22 +15,22 @@
   flex-direction: column;
 }
 .name {
-  width: Fixed (424px) px;
-  height: Hug (76px) px;
+  width: 424px;
+  height: 76px;
   padding: 28px 30px 28px 30px;
   gap: 16px;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 .varchois {
   color: black;
 }
 .buttonrent {
-  width: Fixed (424px) px;
-  height: Hug (76px) px;
+  width: 424px;
+  height: 76px;
   padding: 28px 34px 28px 34px;
   gap: 10px;
   border-radius: 10px;
-  border: 2px 0px 0px 0px;  
+  border: 2px 0px 0px 0px;
   background: black;
   border-color: white;
   color: white;
@@ -47,7 +47,7 @@
   padding-left: 60px;
 }
 .title {
-  font-family: Unbounded;
+  font-family: 'Unbounded';
   font-size: 48px;
   font-weight: 700;
   line-height: 62px;
@@ -57,7 +57,7 @@
   padding-bottom: 50px;
 }
 .textcontent {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -65,4 +65,108 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   padding-bottom: 50px;
+}
+/* --- Медиазапрос для экранов до 767px --- */
+@media (max-width: 767px) {
+  .fonpicture {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px;
+    padding: 0 15px;
+  }
+  .girlpicture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .girl {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .blockform {
+    padding-left: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .textcontent {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .formreg {
+    align-items: center;
+  }
+  .name {
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+  }
+  .buttonrent {
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    padding: 20px 25px;
+    margin-top: 10px;
+  }
+  .checkbox {
+    width: 25px;
+    height: 18px;
+    margin-top: 15px;
+  }
+  .varchois {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+  }
+}
+
+/* --- Медиазапрос для экранов до 480px --- */
+@media (max-width: 480px) {
+  .fonpicture {
+    margin-top: 40px;
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 20px;
+  }
+  .textcontent {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+  }
+  .name {
+    max-width: 100%;
+    height: 50px;
+    padding: 15px 20px;
+  }
+  .buttonrent {
+    max-width: 100%;
+    height: 50px;
+    padding: 15px 20px;
+  }
+  .checkbox {
+    width: 20px;
+    height: 16px;
+  }
+  .varchois {
+    font-size: 12px;
+  }
 }

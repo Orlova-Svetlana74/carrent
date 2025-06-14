@@ -1,6 +1,6 @@
 .fonpicture {
   height: 534px;
-  gap: 0px;  
+  gap: 0px;
   background-color: black;
   background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь элемент */
   background-position: center; /* Центрируем изображение */
@@ -17,12 +17,12 @@
   align-items: flex-start;
 }
 .buttoncall {
-  width: Hug (149px) px;
-  height: Hug (44px) px;
+  width: 149px;
+  height: 44px;
   padding: 12px 20px 12px 20px;
   gap: 10px;
   border-radius: 8px;
-  border: 2px;  
+  border: 2px;
   margin-left: 20px;
 }
 .buttoncall:hover {
@@ -31,7 +31,7 @@
 .telefnumber {
   width: 202px;
   height: 20px;
-  gap: 0px;  
+  gap: 0px;
   color: white;
 }
 .telefnumber:hover {
@@ -44,7 +44,7 @@
 .adress {
   width: 337px;
   height: 22px;
-  gap: 0px;  
+  gap: 0px;
   color: #afafaf;
   margin-bottom: 50px;
 }
@@ -84,7 +84,7 @@
 .textcontent {
   color: #afafaf;
   padding-bottom: 20px;
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 16px;
   font-weight: 500;
   line-height: 34px;
@@ -97,4 +97,136 @@
 }
 .stylebox {
   padding-right: 30px;
+}
+/* --- Медиазапрос для экранов до 767px --- */
+@media (max-width: 767px) {
+  .fonpicture {
+    height: auto;
+    padding: 20px 15px;
+    border-radius: 8px; /* исправлено: убрал неверный синтаксис */
+  }
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 40px;
+  }
+  .blockstyle {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    padding-bottom: 20px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+  .boxtelefon {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .telefnumber {
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .buttoncall {
+    width: 160px;
+    height: 44px;
+    margin-left: 0;
+  }
+  .adress {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    color: #afafaf;
+    margin-bottom: 30px;
+  }
+  .telegrwats {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .telegr,
+  .watsupp {
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+    padding-right: 0;
+  }
+  .styleclients {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 700px;
+  }
+  .stylebox {
+    padding-right: 0;
+    text-align: center;
+  }
+  .clients {
+    padding-bottom: 20px;
+  }
+  .textcontent {
+    font-size: 14px;
+    line-height: 28px;
+    padding-bottom: 10px;
+  }
+}
+
+/* --- Медиазапрос для экранов до 480px --- */
+@media (max-width: 480px) {
+  .fonpicture {
+    padding: 15px 10px;
+  }
+  .footer {
+    padding-top: 30px;
+    gap: 30px;
+  }
+  .logo {
+    max-width: 150px;
+  }
+  .buttoncall {
+    width: 140px;
+    height: 38px;
+    padding: 10px 15px;
+  }
+  .telefnumber {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .adress {
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 260px;
+  }
+  .telegr,
+  .watsupp {
+    width: 20px;
+    height: 20px;
+  }
+  .styleclients {
+    max-width: 100%;
+    gap: 20px;
+  }
+  .clients {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .textcontent {
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 8px;
+  }
 }

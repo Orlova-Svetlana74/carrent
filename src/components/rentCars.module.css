@@ -12,25 +12,25 @@
   width: 348px;
   height: 350px;
   gap: 0px;
-  border-radius: 20px;  
+  border-radius: 20px;
 }
 .rul {
   width: 348px;
   height: 350px;
   gap: 0px;
-  border-radius: 20px;  
+  border-radius: 20px;
   padding-right: 30px;
 }
 .blockstyle {
   width: 1320px;
   height: 580px;
-  gap: 0px;  
+  gap: 0px;
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .title {
-  font-family: Unbounded;
+  font-family: 'Unbounded';
   font-size: 20px;
   font-weight: 700;
   line-height: 62px;
@@ -40,7 +40,7 @@
   color: white;
 }
 .subtitle {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 16px;
   font-weight: 600;
   line-height: 38px;
@@ -50,7 +50,7 @@
   color: white;
 }
 .subsubtitle {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 13px;
   font-weight: 500;
   line-height: 30px;
@@ -61,8 +61,90 @@
 }
 .bloccontener {
   width: 648px;
-  height: 580px;  
+  height: 580px;
   padding-right: 30px;
   margin-left: calc(50% - 660px);
   margin-right: calc(50% - 660px);
+}
+/* --- Медиазапрос для экранов до 767px --- */
+@media (max-width: 767px) {
+  .fonpicture {
+    height: auto;
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 8px; /* исправлено: убрали лишний параметр 'solid #000000' */
+  }
+  .blockstyle {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  .bloccontener {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .redcar,
+  .rul {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 15px;
+    padding-right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .subsubtitle {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+/* --- Медиазапрос для экранов до 480px --- */
+@media (max-width: 480px) {
+  .fonpicture {
+    padding: 10px;
+    margin-top: 40px;
+  }
+  .blockstyle {
+    gap: 15px;
+  }
+  .bloccontener {
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .redcar,
+  .rul {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .subtitle {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .subsubtitle {
+    font-size: 11px;
+    line-height: 20px;
+  }
 }

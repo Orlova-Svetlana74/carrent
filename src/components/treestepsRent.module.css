@@ -7,7 +7,7 @@
   border-radius: 10px;
 }
 .title {
-  font-family: Unbounded;
+  font-family: 'Unbounded';
   font-size: 48px;
   font-weight: 700;
   line-height: 62px;
@@ -30,7 +30,7 @@
   width: 424px;
   height: 272px;
   gap: 0px;
-  border: 1px;  
+  border: 1px;
   background-color: white;
   border-radius: 10px;
   margin-right: 15px;
@@ -60,19 +60,19 @@
 .one {
   width: 24px;
   height: 24px;
-  gap: 0px;  
+  gap: 0px;
   padding-top: 10px;
 }
 .two {
   width: 24px;
   height: 24px;
-  gap: 0px;  
+  gap: 0px;
   padding-top: 10px;
 }
 .tree {
   width: 24px;
   height: 24px;
-  gap: 0px;  
+  gap: 0px;
   padding-top: 10px;
 }
 .subtitle {
@@ -83,4 +83,110 @@
 }
 .blockitems {
   display: flex;
+}
+/* --- Медиазапрос для экранов до 767px --- */
+@media (max-width: 767px) {
+  .blockcontent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 15px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 20px;
+  }
+  .blockitems {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxcontent {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    flex-direction: row;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .bid,
+  .dogovor,
+  .key {
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .one,
+  .two,
+  .tree {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+  }
+  .itemstyle {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+  .subtitle {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .textcontent {
+    font-size: 16px;
+    color: rgba(152, 152, 152, 1);
+  }
+}
+
+/* --- Медиазапрос для экранов до 480px --- */
+@media (max-width: 480px) {
+  .blockcontent {
+    width: 95%;
+    margin-top: 40px;
+    padding: 10px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 15px;
+  }
+  .boxcontent {
+    max-width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .bid,
+  .dogovor,
+  .key {
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .one,
+  .two,
+  .tree {
+    width: 18px;
+    height: 18px;
+    padding-top: 5px;
+  }
+  .itemstyle {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .subtitle {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .textcontent {
+    font-size: 14px;
+  }
 }

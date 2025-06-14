@@ -9,7 +9,7 @@
   margin-top: 100px;
 }
 .titletext {
-  font-family: Unbounded;
+  font-family: 'Unbounded';
   font-size: 48px;
   font-weight: 700;
   line-height: 62px;
@@ -34,7 +34,7 @@
   gap: 0px;
 }
 .textcontent {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 28px;
   font-weight: 600;
   line-height: 38px;
@@ -44,7 +44,7 @@
   color: white;
 }
 .text {
-  font-family: PP Pangram Sans;
+  font-family: 'PP Pangram Sans';
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -58,7 +58,7 @@
   width: 536px;
   height: 448px;
   gap: 0px;
-  border-radius: 20px;  
+  border-radius: 20px;
   background-color: white;
 }
 .block {
@@ -72,7 +72,7 @@
   border-radius: 100%;
   width: 54px;
   height: 54px;
-  gap: 0px;  
+  gap: 0px;
   color: white;
   background: transparent;
   border-color: white;
@@ -81,4 +81,123 @@
 }
 .buttoncircle:hover {
   cursor: pointer;
+}
+/* --- Медиазапрос для экранов до 767px --- */
+@media (max-width: 767px) {
+  .fonpicture {
+    height: auto;
+    padding: 15px;
+    margin-top: 60px;
+  }
+  .blockstyle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width: 90%;
+  }
+  .titletext {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .blockcontent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blocktext {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+  }
+  .textcontent {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .stylediscounts {
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 40px;
+  }
+  .block {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .ellipse {
+    padding-left: 300px;
+    margin-top: -40px;
+    max-width: 100%;
+    height: auto;
+  }
+  .buttoncircle {
+    width: 48px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+
+/* --- Медиазапрос для экранов до 480px --- */
+@media (max-width: 480px) {
+  .fonpicture {
+    padding: 10px;
+    margin-top: 40px;
+  }
+  .blockstyle {
+    padding-top: 60px;
+    width: 95%;
+  }
+  .titletext {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 15px;
+  }
+  .blockcontent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blocktext {
+    max-width: 100%;
+  }
+  .textcontent {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .stylediscounts {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  .block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ellipse {
+    padding-left: 200px;
+    margin-top: -30px;
+    max-width: 100%;
+    height: auto;
+  }
+  .buttoncircle {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
 }
